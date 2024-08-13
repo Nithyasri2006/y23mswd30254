@@ -1,11 +1,18 @@
-import React from 'react'
+// src/components/Footer.js
+import React from 'react';
 
 const Footer = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+    const currentDate = new Date().toLocaleDateString('en-GB', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+    });
 
-export default Footer
+    return (
+        <footer>
+            <p>Current Date: {currentDate}</p>
+        </footer>
+    );
+};
+
+export default Footer;

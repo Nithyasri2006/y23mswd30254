@@ -1,20 +1,107 @@
 /* src/App.css */
-.App {
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: red;
+  color: black;
   text-align: center;
+  padding: 1rem 0;
 }
 
-.feedback-item {
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+/* Footer */
+footer {
+  
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+ 
+  width: 100%;
+  bottom: 0;
 }
 
-.counselor-card {
+/* Student List */
+h2 {
+  color: #333;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 60%;
+  margin: 0 auto;
+}
+
+ul li {
+  background-color: #fff;
+  margin: 0.5rem 0;
+  padding: 0.75rem;
   border: 1px solid #ddd;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* Faculty Table */
+table {
+  width: 80%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Timetable */
+table.timetable {
+  width: 80%;
+  margin: 1rem auto;
+  border-collapse: collapse;
+}
+
+.timetable th, .timetable td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.timetable th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Course Cards */
+.course-card {
+  width: 80%;
+  margin: 1rem auto;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-card h3 {
+  margin-top: 0;
+  color: #4CAF50;
+}
+
+.course-card p {
+  margin: 0.5rem 0;
 }
